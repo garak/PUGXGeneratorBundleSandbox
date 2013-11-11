@@ -3,6 +3,10 @@
 /app/cache/*
 /app/config/parameters.yml
 /app/logs/*
-/vendor/
-/bin/
-/web/bundles/
+/bin
+/vendor
+/web/assetic
+/web/bundles
+/web/css
+/web/js
+

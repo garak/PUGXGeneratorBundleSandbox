@@ -22,8 +22,13 @@
         "symfony/monolog-bundle": "2.3.*",
         "sensio/distribution-bundle": "2.3.*",
         "sensio/framework-extra-bundle": "2.3.*",
-        "sensio/generator-bundle": "2.3.*",
-        "pugx/generator-bundle": "2.4.*"
+        "lexik/form-filter-bundle": "2.0.*",
+        "knplabs/knp-paginator-bundle": "2.3.*",
+        "pugx/generator-bundle": "2.4.*",
+        "leafo/lessphp": "0.4.*",
+        "components/bootstrap": "3.*",
+        "components/font-awesome": "4.*",
+        "components/jquery": "2.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -42,12 +47,13 @@
         ]
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "component-dir": "vendor/components/unuseful"
     },
-    "minimum-stability": "stable",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
+        "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         }
