@@ -14,7 +14,7 @@ Setup
 * Edit ``vendor/components/font-awesome/less/variables.less`` to point ``@fa-font-path``
   to ``/fonts`` (instead of ``../fonts``).
 
-If you find a more elegant solution for last point, feel free to opena a Pull Request.
+If you find a more elegant solution for last point, feel free to open a Pull Request.
 
 
 Creating instructions
