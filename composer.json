@@ -28,7 +28,8 @@
         "leafo/lessphp": "0.4.*",
         "components/bootstrap": "3.*",
         "components/font-awesome": "4.*",
-        "components/jquery": "2.*"
+        "components/jquery": "2.*",
+        "willdurand/faker-bundle": "1.0.*"
     },
     "scripts": {
         "post-install-cmd": [

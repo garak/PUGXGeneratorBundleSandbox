@@ -26,3 +26,11 @@ monolog:
 
 assetic:
     use_controller: true
+
+bazinga_faker:
+    orm: doctrine
+    locale: %locale%
+    entities:
+        Garak\SandboxBundle\Entity\User:
+            number: 50
+            
