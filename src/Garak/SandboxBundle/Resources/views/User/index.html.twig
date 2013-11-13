@@ -37,14 +37,14 @@
         </thead>
         <tbody>
             {% for user in paginator %}
-                <tr>    
-                    <td><a href="{{ path('user_show', {id: user.id}) }}">{{ user.id }}</a></td>    
-                    <td>{{ user.firstName }}</td>    
-                    <td>{{ user.lastName }}</td>    
-                    <td>{{ user.email }}</td>    
-                    <td>{% if user.active %}<i class="fa fa-ok"></i>{% endif %}</td>    
-                    <td>{% if user.lastLogin %}{{ user.lastLogin|date('Y-m-d H:i:s') }}{% endif %}</td>    
-                    <td>{% if user.birthday %}{{ user.birthday|date('Y-m-d') }}{% endif %}</td>    
+                <tr>
+                    <td><a href="{{ path('user_show', {id: user.id}) }}">{{ user.id }}</a></td>
+                    <td>{{ user.firstName }}</td>
+                    <td>{{ user.lastName }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>{% if user.active %}<i class="fa fa-ok"></i>{% endif %}</td>
+                    <td>{% if user.lastLogin %}{{ user.lastLogin|date('Y-m-d H:i:s') }}{% endif %}</td>
+                    <td>{% if user.birthday %}{{ user.birthday|date('Y-m-d') }}{% endif %}</td>
                     <td>
                         <div class="btn-group">
                             <a class="btn btn-default btn-sm" href="{{ path('user_show', {'id': user.id}) }}">
@@ -54,14 +54,14 @@
                                 <i class="fa fa-edit"></i> {{ 'edit'|trans({}, 'admin') }}
                             </a>
                         </div>
-                    </td>    
+                    </td>
                 </tr>
             {% endfor %}
         </tbody>
     </table>
 
     {{ knp_pagination_render(paginator) }}
-    
+
     <ul class="new_entry list-unstyled">
         <li>
             <a class="btn btn-info" href="{{ path('user_new') }}">
@@ -69,5 +69,5 @@
             </a>
         </li>
     </ul>
-    
+
 {% endblock %}

@@ -2,4 +2,3 @@ garak_sandbox:
     resource: "@GarakSandboxBundle/Controller/"
     type:     annotation
     prefix:   /
-

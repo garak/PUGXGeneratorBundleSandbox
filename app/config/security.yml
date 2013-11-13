@@ -2,7 +2,7 @@ security:
     providers:
         in_memory:
             memory:
-    
+
     firewalls:
        anonymous:
             anonymous: ~

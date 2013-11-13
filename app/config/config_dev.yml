@@ -33,4 +33,3 @@ bazinga_faker:
     entities:
         Garak\SandboxBundle\Entity\User:
             number: 50
-            

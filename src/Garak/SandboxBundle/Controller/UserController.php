@@ -36,7 +36,7 @@ class UserController extends Controller
 
         $qb = $em->getRepository('GarakSandboxBundle:User')->createQueryBuilder('u');
         $paginator = $this->filter($form, $qb, 'user');
-        
+
         return array(
             'form' => $form->createView(),
             'paginator' => $paginator,
@@ -144,7 +144,6 @@ class UserController extends Controller
         );
     }
 
-
     /**
      * Save order.
      *
@@ -158,9 +157,9 @@ class UserController extends Controller
     }
 
     /**
-     * @param string $name   session name
-     * @param sting  $field  field name
-     * @param sting  $type   sort type ("ASC"/"DESC")
+     * @param string $name  session name
+     * @param sting  $field field name
+     * @param sting  $type  sort type ("ASC"/"DESC")
      */
     protected function setOrder($name, $field, $type = 'ASC')
     {
@@ -194,9 +193,9 @@ class UserController extends Controller
      * Save filters
      *
      * @param  FormInterface $form
-     * @param  string        $name        route/entity name
-     * @param  string        $route       route name, if different from entity name
-     * @param  array         $params      possible route parameters
+     * @param  string        $name   route/entity name
+     * @param  string        $route  route name, if different from entity name
+     * @param  array         $params possible route parameters
      * @return Response
      */
     protected function saveFilter(FormInterface $form, $name, $route = null, array $params = null)
@@ -217,8 +216,8 @@ class UserController extends Controller
     /**
      * Filter form
      *
-     * @param  FormInterface  $form
-     * @param  QueryBuilder   $qb
+     * @param  FormInterface     $form
+     * @param  QueryBuilder      $qb
      * @return SlidingPagination
      */
     protected function filter(FormInterface $form, QueryBuilder $qb, $name)
@@ -231,6 +230,7 @@ class UserController extends Controller
 
         // possible sorting
         $this->addQueryBuilderSort($qb, $name);
+
         return $this->get('knp_paginator')->paginate($qb->getQuery(), $this->getRequest()->query->get('page', 1), 20);
     }
 
@@ -265,7 +265,7 @@ class UserController extends Controller
     /**
      * Create Delete form
      *
-     * @param integer $id
+     * @param  integer     $id
      * @return FormBuilder
      */
     protected function createDeleteForm($id)
