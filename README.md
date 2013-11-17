@@ -3,6 +3,19 @@ PUGXGeneratorBundle sandbox
 
 A sandbox for [PUGXGeneratorBundle](https://github.com/PUGX/PUGXGeneratorBundle).
 
+Screenshots
+-----------
+
+![list with sorting details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list1.png)
+
+![list with pagination details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list2.png)
+
+![list with open filters](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/filters.png)
+
+![show](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/show.png)
+
+![edit](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/edit.png)
+
 Setup
 -----
 
@@ -41,3 +54,6 @@ $ php app/console pugx:generate:crud \
     --no-interaction
 ```
 
+``` bash
+$ php app/console faker:populate
+```
