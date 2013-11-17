@@ -6,22 +6,14 @@ A sandbox for [PUGXGeneratorBundle](https://github.com/PUGX/PUGXGeneratorBundle)
 Screenshots
 -----------
 
-Click on description for a fullscreen image:
+(click for fullscreen images)
 
-[List with sorting details](https://github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list1.png)
-![list with sorting details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/list1.png)
+[![list with sorting details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/list1.png)](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list1.png "List with sorting details")
+[![list with pagination details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/list2.png)](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list2.png "List with pagination details")
+[![list with open filters](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/filters.png)](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/filters.png "List with open filters")
+[![show](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/show.png)](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/show.png "Show")
+[![edit](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/edit.png)](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/edit.png "Edit")
 
-[List with pagination details](https://github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/list2.png)
-![list with pagination details](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/list2.png)
-
-[List with open filters](https://github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/filters.png)
-![list with open filters](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/filters.png)
-
-[Show](https://github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/show.png)
-![show](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/show.png)
-
-[Edit](https://github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/screenshots/edit.png)
-![edit](https://raw.github.com/garak/PUGXGeneratorBundleSandbox/master/src/Garak/SandboxBundle/Resources/public/images/thumbnails/edit.png)
 
 Setup
 -----
