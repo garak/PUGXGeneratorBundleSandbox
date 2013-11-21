@@ -37,11 +37,10 @@ This project has been created following instructions of [PUGXGeneratorBundle](ht
 Details of commands used:
 
 ``` bash
-$ php app/console doctrine:generate:entity
-```
-
-``` bash
-$ php app/console doctrine:generate:entities GarakSandboxBundle:User --no-backup
+$ php app/console doctrine:generate:entity --no-interaction \
+    --entity=GarakSandboxBundle:User \
+    --fields="firstName:string(255) lastName:string(255) email:string(255) \
+    active:boolean lastLogin:datetime birthday:date"
 ```
 
 ``` bash
