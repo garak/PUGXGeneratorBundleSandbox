@@ -24,11 +24,13 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "lexik/form-filter-bundle": "2.0.*",
         "knplabs/knp-paginator-bundle": "2.3.*",
-        "pugx/generator-bundle": "2.4.*",
         "leafo/lessphp": "0.4.*",
         "components/bootstrap": "3.*",
         "components/font-awesome": "4.*",
-        "components/jquery": "2.*",
+        "components/jquery": "2.*"
+    },
+    "require-dev": {
+        "pugx/generator-bundle": "2.4.*",
         "willdurand/faker-bundle": "1.0.*"
     },
     "scripts": {
